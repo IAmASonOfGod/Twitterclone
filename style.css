@@ -820,3 +820,131 @@ input{
 .trending-footer-section li:hover{
     text-decoration: underline;
 }
+
+/* mobile optimization */
+
+@media (max-width: 475px){
+    .container{
+        display: none;
+
+    }
+
+    .Trending-section{
+        display: none;
+    }
+
+    .mobile-footer{
+        display:flex;
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        position: sticky;
+        bottom: 0;
+    }
+
+    .fixed-nav{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 25%;
+        color: white;
+    }
+
+    .fixed-nav:hover{
+        background-color: rgba(212,215,217,0.1);
+    }
+
+    .main{
+        border-left: 1px solid grey;
+    }   
+
+    .main-item{
+        display: inline-block;
+        width: 100%;
+    }
+
+    .setting-nav{
+        display: flex;
+        flex-direction: row;
+        background-color: black;
+    }
+
+    .post-text{
+        display: flex; 
+    }
+
+    .post-text span{
+        margin-right: 0px;
+        padding-left: 18px;
+    }
+
+    .Post-pp{
+        margin-left: 16px;
+    }
+
+    .post-icons{
+        display: flex;   
+    }
+ 
+    .post-icons .post-icon-container{
+     padding-left: 15px;
+    }
+
+    .post-icons .post-button-container{
+        padding-right: 20px;
+    }
+
+    .show-posts{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .post-content{
+        display: flex;
+    }
+
+    .profile-username{
+        display: flex;
+        width: 100%;
+    }
+
+    .hours{
+        width: 100%;
+    }
+
+    .media{
+        width: 100%;  
+    }
+
+    .media img{
+        width: 100%;
+    }
+
+    .post-contents{
+        width: 80%;
+    }
+
+    .post-profile-pic{
+        width: 15%;
+        margin: 0px;    
+    }
+
+    .post-profile-pic img{
+        margin: 15px 0px 0px 15px;
+    }
+
+    .more-options{
+        display: flex;
+        padding: 0px;
+    }
+
+    .more-options .material-symbols-outlined{
+        display: inline-block;
+    }
+
+    .post-contents-icons{
+        width: 100%;
+    }
+}

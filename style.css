@@ -827,7 +827,7 @@ input{
 
 /* mobile optimization */
 
-@media (min-width: 319px) and (max-width: 475px){
+@media (max-width: 480px){
     .container{
         display: none;
 
